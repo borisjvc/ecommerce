@@ -1,0 +1,50 @@
+.list__item {
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+/*--CSS para la etiqueta card en los paquetes--*/
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*----------------------------------------------*/
+
+.text-container {
+    margin-left: 10px;
+}
+
+.content-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*--CSS para navbar--*/
+.bg-azul {
+    background-color: #3fa1e3; /* Código hexadecimal del naranja del logo*/
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+/*--------------------*/
